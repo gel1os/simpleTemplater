@@ -6,5 +6,5 @@ templateData = {
 
 template = template.replace(/\{\{([^\}]+)\}\}/g, function(matched, value) {
     value = value.trim();
-    return templateData[value]
+    return templateData[value];
 });
